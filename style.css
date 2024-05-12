@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: sans-serif;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(assets/bg.PNG);
+  background-size: cover;
+}
+
+.wrapper{
+  width: 605px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+}
+
+.wrapper header{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wrapper .content{
+  margin: 35px 0;
+}
+
+.content .quote-area{
+  display: flex;
+  justify-content: center;
+}
+
+.quote-area .quote{
+  font-size: 40px; 
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.content .author{
+  display: flex;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.author span:first-child{
+  margin: -7px 5px 0 0;
+  font-family: monospace;
+}
+
+.wrapper .buttons{
+  border-top: 1px solid #ccc;
+  position: relative;
+  top: 30px;
+}
+
+.buttons .features{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  
+  justify-content: space-between;
+}
+
+.features ul{
+  display: flex;
+  
+}
+
+.features ul li{
+  display: flex;
+  
+}
+
+.features ul li{
+  margin: 0 5px;
+  height: 47px;
+  width: 47px;
+  border: 2px solid rgb(255, 228, 196);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+
+.features ul li:hover{
+  background: bisque;
+}
+
+.features button{
+  border: none;
+  outline: none;
+  padding: 13px 22px;
+  border-radius: 30px;
+  background: rgb(255, 228, 196);
+  font-size: 16px;
+  cursor: pointer;
+  color: #666;
+}
+
+button.loading{
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.copied::before {
+  content: '✔';
+}
+
+
+
+
+
+
+
